@@ -18,4 +18,7 @@ console.log("fruits====>", fruits[2])
  *  List => A list is a group of un-related data item.
  */
 
-let candidate= []
+let candidatedetails = ["vignesh","34","Bachelor of Engineering","UX Designer","3 Years of Experience"]
+
+console.log("candidatedetails ====>",candidatedetails)
+console.log("Educationdetails ====>",candidatedetails[2])
