@@ -1,5 +1,7 @@
 
 
+// Example 1
+
 const student= {
     name: "vignesh",
     skill: "Mechanical Design",
@@ -18,3 +20,22 @@ console.log("student ====>",skill)
 console.log("student ====>",CGPA)
 console.log("student ====>",student.records)
 console.log("student records ====>",merit)
+
+
+
+// Example 2
+
+const actor={
+    title: "Ajith",
+    age:  "50",
+    cinematitle:"Thala",
+    movies:{
+        "2016":"Mankatha",
+        "2025":"GBU"
+    }
+}
+
+console.log("actor====>", actor.cinematitle)
+console.log("actor====>", actor.movies)
+console.log("actor====>", actor.movies["2016"])
+console.log("actor====>", actor.movies["2025"])
