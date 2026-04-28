@@ -12,3 +12,8 @@ let first = "100";
 let second = "200";
 
 console.log(first+second);
+
+let firstname = "Vignesh";
+let lastname= "Baskaran";
+
+console.log(firstname + lastname)
