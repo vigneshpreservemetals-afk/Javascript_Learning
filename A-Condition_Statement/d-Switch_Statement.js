@@ -6,8 +6,10 @@ let drivergrade = null;
 
 if (speed == 45)
     drivergrade = "normal";
+
 else if (speed <= 60)
     drivergrade = "average";
+
 else
     drivergrade = "Overspeed";
 
