@@ -1,4 +1,5 @@
-
+ 
+ Example 1
 
 let speed = 100;
 
@@ -14,6 +15,7 @@ else
     drivergrade = "Overspeed";
 
 switch (drivergrade) {
+
     case "average":
         console.log("Average Driver");
         break;
@@ -29,4 +31,9 @@ switch (drivergrade) {
     default:
         console.log("Not considered as Driver");
 }
+
+
+
+
+
 
