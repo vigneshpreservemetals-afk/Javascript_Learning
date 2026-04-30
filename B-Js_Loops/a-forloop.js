@@ -2,16 +2,16 @@
 
 // Example 1
 
-for (let i=1: i<=10 ; i++ ) {
+for (let i=1; i<=10 ; i++ ) {
 
-    console.log(`${i} , "*3=", ${i*3}`)
+    console.log(`${i}*3= ${i*3}`)
 }
 
-// Example 2
+// // Example 2
 
-let fruits = ["Apple","Mango","Banana","Kiwi"]
+// let fruits = ["Apple","Mango","Banana","Kiwi"]
 
-for(let i=1; i<fruits.length; i++){
+// for(let i=1; i<fruits.length; i++){
 
-    console.log("fruits===>", fruits[i])
-}
+//     console.log("fruits===>", fruits[i])
+// }
