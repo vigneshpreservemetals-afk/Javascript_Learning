@@ -1,6 +1,15 @@
 
 
-Example 1
+/* Hositing: JavaScript moves declarations to the top of their scope before code execution.
+
+   Closure:A closure is when an inner function remembers and can access variables from its outer function even after the outer function has finished executing.
+
+   Currying is converting a function that takes multiple arguments into a sequence of functions that each take one argument.
+
+   In other words: Currying means passing one argument at a time in separate functions. */
+
+
+// Example 1
 
 function upcomingcm(location){
 
