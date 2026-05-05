@@ -11,39 +11,7 @@
 
 // Example 1
 
- function upcomingcm(location){
-
-     return function(name){
-
-         return function(seats){
-
-             let grade;
-
-             if(seats>= 50000){
-                grade= "Extreme Win - CM";
-            }else if (seats >= 40000){
-                grade="Opposition party - Leader"
-            }else {
-                grade="Lose"
-            }
-               
-            return grade
-            
-            /*return `${name} from ${location} : ${seats}`*/
-         }
-     }
- }
-
- const result = upcomingcm ("Perambur/Trichy West") ("C Joseph Vijay") (50000)
-
- console.log("result===>",result)
-
-
-
-
-
-Example 2
-
+ 
 function upcomingcm(){
 
     let location = "Perambur/trichyeast";
@@ -76,3 +44,34 @@ const result = upcomingcm() () ()
 
 console.log("result===>",result)
 
+
+
+// Example 2
+
+
+function upcomingcm(location){
+
+     return function(name){
+
+         return function(seats){
+
+             let grade;
+
+             if(seats>= 50000){
+                grade= "Extreme Win - CM";
+            }else if (seats >= 40000){
+                grade="Opposition party - Leader"
+            }else {
+                grade="Lose"
+            }
+               
+            return grade
+
+            /*return `${name} from ${location} : ${seats}`*/
+         }
+     }
+ }
+
+ const result = upcomingcm ("Perambur/Trichy West") ("C Joseph Vijay") (50000)
+
+ console.log("result===>",result)
