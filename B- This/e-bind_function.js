@@ -1,4 +1,3 @@
-// Example 1
 
 let product= {
     name: "Skoda Slavia",
@@ -13,4 +12,6 @@ function getproductprice (manufacturingUnit){
 
 }
 
-getproductprice.apply(product,["Pune"])
+let newfunction = getproductprice.bind(product,"Pune");
+
+newfunction()
