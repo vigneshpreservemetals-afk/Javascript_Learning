@@ -1,27 +1,65 @@
 
 
-function upcomingCm(location,name,seats) {
+Example 1
 
-   
-        return function() {
+function upcomingcm(location){
+
+    return function(name){
+
+        return function(seats){
 
             let grade;
 
-            if(cmCandidates.seats >= 50000){
-                grade="Extreme Win";
-                
-                
-            }else if(cmCandidates.seats >= 40000){
-                grade="Moderate Win";
-                
+            if(seats>= 50000){
+                grade= "Extreme Win - CM";
+            }else if (seats >= 40000){
+                grade="Opposition party - Leader"
+            }else {
+                grade="Lose"
+            }
 
-            }else{
-                grade="lose";
-            };
-
-            return grade
+            return `${name} from ${location} : ${seats}`
         }
     }
+}
 
-    let result = upcomingCm("Perambur","C Joseph Vijay",50000)()
-    console.log("result===>",result)
+const result = upcomingcm ("Perambur/Trichy West") ("C Joseph Vijay") (50000)
+
+console.log("result===>",result)
+
+
+
+
+
+// Example 2
+
+function upcomingcm(){
+
+    let location = "Perambur/trichyeast";
+    let name     = "C Joseph Vijay";
+    let seats    = 50000
+
+
+    return function(){
+
+        return function(){
+
+            let grade;
+
+            if(seats>= 50000){
+                grade= "Extreme Win - CM";
+            }else if (seats >= 40000){
+                grade="Opposition party - Leader"
+            }else {
+                grade="Lose"
+            }
+
+            return `${name} from ${location} : ${grade}`
+        }
+    }
+}
+
+const result = upcomingcm() () ()
+
+console.log("result===>",result)
+
