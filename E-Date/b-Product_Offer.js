@@ -26,7 +26,7 @@
 // Example 2  - Offer Applied
 
 
-let OriginalPrice   = 500;
+let OriginalPrice   = 1000;
 let ProductPrice    = OriginalPrice;
 
 let today           = new Date();
