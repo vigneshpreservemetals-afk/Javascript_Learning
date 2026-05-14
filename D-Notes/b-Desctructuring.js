@@ -1,5 +1,7 @@
 
 
+/*
+
 // A - Array Destructuring
 
 // Example 1: Basic example
@@ -47,15 +49,17 @@ console.log(x,y)
 // Example 5: Swap Values
 
 
-// let x = 20;
-// let y = 25;
+let x = 20;
+let y = 25;
 
-// [x,y] = [y,x];
+[x,y] = [y,x];
 
-// console.log(x,y)
+console.log(x,y)
 
 
 // B - Object Destructuring
+
+Example 1 - Basic Examples
 
 const user ={
     name: "Vignesh",
@@ -65,4 +69,16 @@ const user ={
 const {name,age} = user;
 
 console.log(name,age)
+
+// Example 2 - Rename Variables
+
+const user = { 
+    title : "Vignesh Baskaran"
+} 
+
+const {title:EmployeeName} = user;
+
+console.log(EmployeeName)       */
+
+
 
